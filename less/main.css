@@ -1,0 +1,461 @@
+			/* ________________
+					
+					MAIN SETTINGS
+
+			__________________*/
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto ;
+}
+
+.container h1 {
+	font-size: 72px;
+}
+
+.container p {
+	font-size: 14px;
+	color: white;
+}
+
+
+			/* ________________
+					
+					HEADER
+
+			__________________*/
+
+
+
+header {
+	background: url(../img/firstBg.jpg) no-repeat center top / cover;
+	height: 957px;
+	color: white;
+}
+
+.heading {
+	padding: 50px 90px;
+	background: url(../img/menu.png) no-repeat center top / cover;
+}
+
+.logo {
+	float: left;
+	margin-top: -7px;
+}
+
+nav {
+	float: right;
+	margin-top: 0;
+		box-sizing: border-box;
+}
+
+.menu li {
+	display: block;
+	float: left;
+	font-size: 18px;
+	margin-right: 50px;
+	margin-top: -10px;
+}
+
+.menu li:hover {
+	color: #39b9ef;
+	border-bottom: 3px solid #39b9ef;
+	padding-bottom: 2px;
+	margin-bottom: -2px;
+}
+
+.search {
+	margin-left: 30px;
+	margin-right: -50px;
+}
+
+.search:hover {
+	color: white;
+	border-bottom: 0px solid white;
+	margin-bottom: -3px;
+}
+
+.titles {
+	padding-left: 84px;
+	margin-top: 285px;
+}
+
+.titles h1 {
+	margin: 0;
+}
+
+.titles p {
+	font-size: 24px;
+	padding-left: 245px;
+}
+
+.titles span {
+	color: #2ebaee;
+}
+
+.btn {
+	background-color: #2ebaee;
+	font-size: 24px;
+	text-align: center;
+	width: 210px;
+	margin: 0 auto;
+	margin-top: 60px;
+	padding: 16px 0;
+	border: 0px solid black;
+	border-radius: 100px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn:hover {
+}
+
+
+			/* ________________
+					
+					SERVICES # 1
+
+			__________________*/
+
+
+
+.bg {
+	background: url(../img/secondBg.png) no-repeat center bottom ;
+}
+
+.Services1 {
+	height: 1920px;
+}
+
+.ourServices h2 {
+	font-size: 48px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.row {
+	text-align: center;
+	height: 250px;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.row_item {
+	float: left;
+	width: 280px;
+	text-align: left;
+	margin-right: 40px;
+	padding-top: 20px;
+	height: 250px; 
+}
+
+.row h3 {
+	font-size: 24px;
+}
+
+.row p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.second {
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 185px;
+	width: 146px;
+	font-size: 14px;
+}
+
+.text h3 {
+	font-size: 36px;
+}
+
+.rowSecond p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.text {
+	width: 493px;
+	line-height: 1.65em;
+	display: block;
+	padding-top: 70px;
+}
+
+.third {
+	float: left;
+	margin-top: 50px;
+}
+
+.rowSecond {
+	float: left;
+	height: 495px;
+	width: 100%;
+	width: 1350px;
+	margin: 0 auto;
+	display: block;
+}
+
+.rowSecond img {
+	float: right;
+	margin-right: -80px;
+	margin-top: -250px;
+	margin-left: 30px;
+}
+
+.rowThird {
+	width: 1350px;
+	padding-top: 745px;
+	padding-bottom: 140px;
+}
+
+.secondText {
+	float: right;
+	color: white;
+	text-align: left;
+}
+
+.secondText p {
+	color: white;
+}
+
+.secondBtn {
+	color: #2ebaee; 
+	background-color: white;
+	font-size: 14px;
+	width: 150px;
+	float: left;
+}
+
+
+			/* ________________
+					
+					SERVICES # 2
+
+			__________________*/
+
+#Services2 p{
+	color: #878787
+}
+
+.men {
+	float: left;
+}
+
+.text2 {
+	float: right; 
+	width: 500px;
+	height: 460px;
+	margin-top: 50px;
+	padding-bottom: 90px;
+}
+
+.imgblock {
+	position: relative;
+	display: inline-block;
+}
+
+.imgblock span {
+	position: absolute;
+	font-size: 48px;
+	color: white;
+	margin-top: -270px;
+	margin-left: 55px;
+}
+
+			/* ________________
+					
+					TEAM
+
+			__________________*/
+
+#team {
+	padding-top: 120px;
+	padding-bottom: 150px;
+	height: 645px;
+}
+
+#team .titles {
+	margin-top: 0;
+	margin-bottom: 105px;
+	padding-left: 0;
+}
+
+.lastRow_item {
+	text-align: center;
+}
+
+
+			/* ________________
+					
+					CONTACT
+
+			__________________*/
+
+#contact {
+	height: 715px;
+	background: url(../img/lastBg.jpg) no-repeat center top / cover;
+}
+
+.sides {
+	padding-top: 130px;
+	height: 480px;
+	padding-bottom: 130px;
+}
+
+.side1 {
+	/*background-color: green;*/
+	height: 480px;
+	width: 575px;
+	float: left;
+}
+
+.side2 {
+	/*background-color: yellow;*/
+	height: 480px;	
+	width: 636px;
+	float: right;
+}
+
+.side1 h1 {
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: white;
+}
+
+.side1 p {
+	font-size: 18px;
+	color: #878787;
+	margin-top: -20px;
+}
+
+.lastTitles h3 {
+	color : #878787;
+	font-size: 30px;
+}
+
+.lastTitles span {
+	color: #2ebaee;
+	font-size: 30px;
+}
+
+.socialIco {
+	margin-top: 60px;
+}
+
+.socialItem {
+	border: 0px solid black;
+	border-radius: 100%;
+	width: 52px;
+	height: 52px;
+	margin-right: 35px;
+	float: left;
+	padding-top: 18px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#first {
+	background-color: #55acee;
+}
+
+#second {
+	background-color: #3b5998;
+	padding-left: 2px;
+}
+
+#third {
+	background-color: #cc2127;
+}
+
+#fourth {
+	background-color: #dd4b39;
+	padding-left: 4px;
+}
+
+#fiveth {
+	background-color: #e23047;
+}
+
+.form	{
+	width: 636px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.cell {
+	width: 100%;
+	background-color: rgb(0 ,0 , 0 , 0);
+	border: 1px solid #535353;
+	margin-bottom: 23px;
+	border-radius: 5px;
+	display: block;
+	padding-left: 18px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	box-sizing: border-box;
+}
+
+#lastInp {
+	padding-bottom: 160px;
+}
+
+#contact input {
+	color: white;
+}
+
+input.cell::placeholder {
+	color: white;
+}
+
+.form .btn {
+	display: flex;
+	justify-content: center;
+	margin-top: 32px;
+}
+			/* ________________
+					
+					FOOTER
+
+			__________________*/
+
+footer {
+	height: 135px;
+	background-color: black;
+}
+
+footer nav {
+	float: left;
+	box-sizing: border-box;
+}
+
+footer .menu {
+	padding: 50px 0;
+}
+
+footer p {
+	float: right;
+	margin-top: 0;
+	margin-top: 50px;
+	color: white;
+}
